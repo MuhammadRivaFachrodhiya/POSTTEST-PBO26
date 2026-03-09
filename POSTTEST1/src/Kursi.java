@@ -1,4 +1,3 @@
-// File: Kursi.java
 class Kursi extends Mebel {
     String tipe;
     static int counter = 1;
@@ -14,4 +13,5 @@ class Kursi extends Mebel {
         super.tampilkanBaris();
         System.out.printf("| %-15s |\n", tipe);
     }
+
 }
