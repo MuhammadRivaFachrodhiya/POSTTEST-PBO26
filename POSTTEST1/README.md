@@ -12,19 +12,19 @@ Sistem ini dibuat agar memudahkan para pengguna untuk mengontrol inventaris dari
 | 
 ## Class dan Properti:
 ### 1. Mebel.java:
-| Atribut  | Tipe Data | Keterangan                               |
+| Properti  | Tipe Data | Keterangan                               |
 |----------|-----------|------------------------------------------|
 | kode     | String    | Kode unik untuk menandakan sebuah barang |
 | nama     | String    | Untuk menyimpan nama barang              |
 | harga    | double    | Untuk menyimpan harga barang             |
 | stok     | int       | Untuk menyimpan jumlah stok              |
 ### 2. Meja.java:
-| Atribut | Tipe Data  | Keterangan                                                                 |
+| Properti | Tipe Data  | Keterangan                                                                 |
 |---------|------------|----------------------------------------------------------------------------|
 | bahan   | String     | Digunakan untuk menyimpan bahan dari meja tersebut seperti kayu atau besi. |
 | counter | static int | digunakan untuk menyimpan nomor urut atau kode unik dari barang, fungsi utamanya agar kode unik dapat dilakukan secara incremental                                                                     |
 ### 3. Kursi.java:
-| Atribut | Tipe Data  | Keterangan                                                                                                                         |
+| Properti | Tipe Data  | Keterangan                                                                                                                         |
 |---------|------------|------------------------------------------------------------------------------------------------------------------------------------|
 | tipe    | String     | Digunakan untuk menyimpan tipe dari meja tersebut seperti minimalis atau kantor.                                                   |
 | counter | static int | digunakan untuk menyimpan nomor urut atau kode unik dari barang, fungsi utamanya agar kode unik dapat dilakukan secara incremental |
@@ -75,3 +75,4 @@ Dapat mengelola (menambah, melihat, mengubah, dan menghapus) barang-barang/mebel
 ![kosong.png](Image/kosong.png)
 
 #### Tampilan ini adalah output ketika user atau pengguna sudah menghapus barang sesuai nomor urut barang yang diminta tadi, list barang nya akan menjadi kosong.
+
